@@ -56,9 +56,9 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let item = items[indexPath.row]
         let cell = Bundle.main.loadNibNamed("PostTableViewCell", owner: self,options: nil)?.first as! PostTableViewCell
-        cell.FullnameLabel.text = item.fullname
-        cell.profileImageView.image = UIImage(named: item.user_img!)
-        cell.postImageView.image = UIImage(named: item.post_img!)
+       // cell.FullnameLabel.text = item.fullname
+      //  cell.profileImageView.image = UIImage(named: item.user_img!)
+//        cell.postImageView.image = UIImage(named: item.post_img!)
         
         
         
